@@ -10,6 +10,12 @@ TRAIN_DIR=datasets/custom-models/inception_v3
 # Where the dataset is saved to.
 DATASET_DIR=datasets/custom
 
+DATASET_DIR1=datasets/custom/custom_photos
+
+if [ ! -d "$DATASET_DIR1" ]; then
+  mkdir ${DATASET_DIR1}
+fi
+
 # Download the pre-trained checkpoint.
 if [ ! -d "$PRETRAINED_CHECKPOINT_DIR" ]; then
   mkdir ${PRETRAINED_CHECKPOINT_DIR}
@@ -37,7 +43,7 @@ python3 train_image_classifier.py \
   --checkpoint_exclude_scopes=InceptionV3/Logits,InceptionV3/AuxLogits \
   --trainable_scopes=InceptionV3/Logits,InceptionV3/AuxLogits \
   --max_number_of_steps=1000 \
-  --batch_size=32 \
+  --batch_size=128 \
   --learning_rate=0.01 \
   --learning_rate_decay_type=fixed \
   --save_interval_secs=60 \
