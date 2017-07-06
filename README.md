@@ -18,9 +18,6 @@ Class 0 - Image which are not seasonal christams images
 
 This also can use to train CNN achitectures on many given data sets. 
 
-Reference - https://github.com/tensorflow/models/tree/master/slim
-
-Steps to work with this repository 
 
 
 
