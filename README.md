@@ -1,4 +1,13 @@
-Transfer learning with tensorflow slim
+Use following commands  
+
+1 chmod a+x finetune_inception_v3_on_custom.sh 
+
+2 ./finetune_inception_v3_on_custom.sh 
+
+Please read finetune_inception_v3_on_custom.sh file to understand more about the precudere. 
+
+
+
 
 This repository was originally taken from tensorlow slim. With this you can traine you model for any data set. In the tutorial you can only trained for pre-difined data sets like Flower. CIFAR etc 
 
@@ -13,11 +22,5 @@ Reference - https://github.com/tensorflow/models/tree/master/slim
 
 Steps to work with this repository 
 
-Use following commands  
 
-1 chmod a+x finetune_inception_v3_on_custom.sh 
-
-2 ./finetune_inception_v3_on_custom.sh 
-
-Please read finetune_inception_v3_on_custom.sh file to understand more about the precudere. 
 
