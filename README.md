@@ -1,14 +1,8 @@
 Transfer learning with tensorflow slim
 
-This repository was originally taken from tensorlow slim. 
+This repository was originally taken from tensorlow slim. With this you can traine you model for any data set. In the tutorial you can only trained for pre-difined data sets like Flower. CIFAR etc 
 
-With this you can traine you model for any data set. In the tutorial you can only trained for pre-difined data sets like Flower. CIFAR etc 
-
-The data to train is inside the data folder
-
-Data Set 
-
-This data set has two labels. A binary classification problem. 
+The data to train is inside the data folder  .This data set has two labels. A binary classification problem. 
 
 Class 1 - Seasonal Christmas Images 
 Class 0 - Image which are not seasonal christams images 
