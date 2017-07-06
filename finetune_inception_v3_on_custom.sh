@@ -12,9 +12,9 @@ DATASET_DIR=datasets/custom
 
 DATASET_DIR1=datasets/custom/custom_photos
 
-if [ ! -d "$DATASET_DIR1" ]; then
-  mkdir ${DATASET_DIR1}
-fi
+#if [ ! -d "$DATASET_DIR1" ]; then
+ # mkdir ${DATASET_DIR1}
+#fi
 
 # Download the pre-trained checkpoint.
 if [ ! -d "$PRETRAINED_CHECKPOINT_DIR" ]; then
