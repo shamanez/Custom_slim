@@ -19,9 +19,10 @@ Reference - https://github.com/tensorflow/models/tree/master/slim
 
 Steps to work with this repository 
 
-Copy pase followong in the terminal 
+Use following commands  
 
 1 chmod a+x finetune_inception_v3_on_custom.sh 
+
 2 ./finetune_inception_v3_on_custom.sh 
 
 Please read finetune_inception_v3_on_custom.sh file to understand more about the precudere. 
