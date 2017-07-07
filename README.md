@@ -14,6 +14,7 @@ This repository was originally taken from tensorlow slim. With this you can trai
 The data to train is inside the data folder  .This data set has two labels. A binary classification problem. 
 
 Class 1 - Seasonal Christmas Images 
+
 Class 0 - Image which are not seasonal christams images 
 
 This also can use to train CNN achitectures on many given data sets. 
